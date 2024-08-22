@@ -1,0 +1,40 @@
+.city-list {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 300px; /* Limit maximum width */
+  }
+  
+  .city-list h2 {
+    background-color: #4472C4;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .city-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .city-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .city-list li:hover {
+    background-color: #f0f0f0;
+    color: red;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .city-list {
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+  

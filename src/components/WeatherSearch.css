@@ -1,0 +1,45 @@
+.weather-search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; /* Limit maximum width */
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    width: calc(100% - 120px); /* Full width minus button width */
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4472C4;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .search-bar button:hover {
+    background-color: #315a9c;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .search-bar input {
+      width: calc(100% - 20px); /* Full width for input */
+      margin-right: 0;
+    }
+  }
+  

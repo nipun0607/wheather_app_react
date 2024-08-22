@@ -1,0 +1,59 @@
+.weather-details {
+    border: 1px solid #000000;
+    padding: 10px;
+    flex: 1;
+    overflow-x: auto; /* Allow horizontal scroll if needed */
+  }
+  
+  .weather-details h2 {
+    background-color: #4472C4;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .weather-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .weather-details th, .weather-details td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .weather-details th {
+    background-color: #4472C4;
+    color: #ffffff;
+  }
+  
+  .weather-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .weather-details table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+    }
+  
+    .weather-details th, .weather-details td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .weather-details th {
+      background-color: #4472C4;
+      color: #ffffff;
+    }
+  
+    .weather-details tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
